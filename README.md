@@ -1,4 +1,4 @@
-## designing-a-blazor-dashboard-layout-with-UI-components
+# Designing-a-blazor-dashboard-layout-with-UI-components
 
 **Repository Description**  
 This repository contains a quick‑start Blazor sample that demonstrates how to design and configure dashboards using the Syncfusion Blazor Dashboard Layout component along with other UI components.
