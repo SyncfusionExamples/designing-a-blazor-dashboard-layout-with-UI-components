@@ -13,7 +13,9 @@ Watch the following video to get started with a Blazor Web Assembly app and add 
 https://www.youtube.com/watch?v=zKU580cOqjg
 
 ## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and [.NET Core SDK 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) or later version in your machine before starting to work on this project.
+Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and the [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later version in your machine before starting to work on this project.
+
+The sample uses the .NET 10 Blazor Web App server structure (`Components/App.razor`, `Components/Pages`, `Components/Layout`) described in the [Dashboard Layout server getting started guide](https://help.syncfusion.com/chart-sdk/blazor/dashboard-layout/getting-started-with-server-app?tabcontent=visual-studio-code). The Syncfusion script reference is in the body of `Components/App.razor`.
 
 ## How to run this application
 To run this application, you need to first clone the `designing-a-blazor-dashboard-layout-with-UI-components` repository and then open it in Visual Studio 2022. Now, simply build and run your project to view the output.
