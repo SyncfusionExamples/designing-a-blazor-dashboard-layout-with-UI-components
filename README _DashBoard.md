@@ -9,14 +9,11 @@ https://help.syncfusion.com/chart-sdk/blazor/dashboard-layout/getting-started
 Check out this online example of the Blazor Dashboard Layout component:
 https://blazor.syncfusion.com/demos/dashboard-layout/default
 
-
 Watch the following video to get started with a Blazor Web Assembly app and add Syncfusion Blazor components to it:
 https://www.youtube.com/watch?v=zKU580cOqjg
 
 ## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/) and the [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later version in your machine before starting to work on this project.
-
-The sample is a .NET 10 Blazor WebAssembly app. The Syncfusion script reference is in the body of `wwwroot/index.html`.
+Make sure that you have the compatible versions of [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/ ) and the [.NET 10 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) or later version in your machine before starting to work on this project.
 
 ## How to run this application
 To run this application, you need to first clone the `designing-a-blazor-dashboard-layout-with-UI-components` repository and then open it in Visual Studio 2022. Now, simply build and run your project to view the output.
