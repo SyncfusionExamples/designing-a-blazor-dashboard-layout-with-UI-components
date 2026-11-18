@@ -5,64 +5,40 @@
 		<DashboardLayoutPanel Column="0" Row="0" SizeX="2" SizeY="1">
 			<HeaderTemplate>Income</HeaderTemplate>
 			<ContentTemplate>
-				<table>
-					<tr>
-						<td>
-							<p class="income-container">$43,300</p>
-						</td>
-						<td>
-							<img src="income.jpg" style="margin-left:178px;" />
-						</td>
-					</tr>
-				</table>
+				<div class="summary-row">
+					<p class="income-container">$43,300</p>
+					<img src="income.jpg" alt="Income" />
+				</div>
 			</ContentTemplate>
 		</DashboardLayoutPanel>
 
 		<DashboardLayoutPanel Column="2" Row="0" SizeX="2" SizeY="1">
 			<HeaderTemplate>Expenses</HeaderTemplate>
 			<ContentTemplate>
-				<table>
-					<tr>
-						<td>
-							<p class="expense-container">$38,060</p>
-						</td>
-						<td>
-							<img src="expense.jpg" style="margin-left:176px; margin-top:-17px; " />
-						</td>
-					</tr>
-				</table>
+				<div class="summary-row">
+					<p class="expense-container">$38,060</p>
+					<img src="expense.jpg" alt="Expenses" />
+				</div>
 			</ContentTemplate>
 		</DashboardLayoutPanel>
 
 		<DashboardLayoutPanel Column="4" Row="0" SizeX="2" SizeY="1">
 			<HeaderTemplate>Balance</HeaderTemplate>
 			<ContentTemplate>
-				<table>
-					<tr>
-						<td>
-							<p class="in-container">$38,060</p>
-						</td>
-						<td>
-							<img src="balance.png" style="margin-left:185px;" />
-						</td>
-					</tr>
-				</table>
+				<div class="summary-row">
+					<p class="in-container">$38,060</p>
+					<img src="balance.png" alt="Balance" />
+				</div>
 			</ContentTemplate>
 		</DashboardLayoutPanel>
 
 		<DashboardLayoutPanel Column="6" Row="0" SizeX="2" SizeY="1">
 			<HeaderTemplate>Transactions</HeaderTemplate>
 			<ContentTemplate>
-				<table>
-					<tr>
-						<td>
-							<p class="ex-container">$38,060</p>
-						</td>
-						<td>
-							<img src="trans.jpg" style="margin-left:185px; " />
-						</td>
-					</tr>
-				</table>
+				<div class="summary-row">
+					<p class="ex-container">$38,060</p>
+					<img src="trans.jpg" alt="Transactions" />
+				</div>
 			</ContentTemplate>
 		</DashboardLayoutPanel>
 
@@ -204,32 +180,46 @@
 
 	.e-panel-content {
 		text-align: center;
+		overflow: hidden;
+	}
+
+	.summary-row {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 100%;
+		padding: 0 12px;
+		box-sizing: border-box;
+	}
+
+	.summary-row p {
+		margin: 0;
+	}
+
+	.summary-row img {
+		height: 42px;
+		width: auto;
+		flex: 0 0 auto;
 	}
 
 	.income-container {
 		font-size: x-large;
 		color: #17a00e;
-		margin-top: 14px;
 	}
 
 	.expense-container {
 		color: #ca765a;
 		font-size: x-large;
-		margin-top: 14px;
 	}
 
 	.in-container {
 		font-size: x-large;
 		color: #17a00e;
-		margin-top: 14px;
-		padding: 15px;
 	}
 
 	.ex-container {
 		color: #ca765a;
 		font-size: x-large;
-		margin-top: 14px;
-		padding: 15px;
 	}
 
 	.e-dashboardlayout.e-control .e-panel .e-panel-container .e-panel-header {
