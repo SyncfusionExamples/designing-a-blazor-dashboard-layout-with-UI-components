@@ -1,18 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <OverrideHtmlAssetPlaceholders>true</OverrideHtmlAssetPlaceholders>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
-    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
-    <PackageReference Include="Syncfusion.Blazor.Charts" Version="20.3.0.58" />
-    <PackageReference Include="Syncfusion.Blazor.Grid" Version="20.3.0.58" />
-    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="20.3.0.57" />
-    <PackageReference Include="Syncfusion.Blazor.Themes" Version="20.3.0.57" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="10.0.15" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="10.0.15" PrivateAssets="all" />
+    <PackageReference Include="Syncfusion.Blazor.Charts" Version="35.1.46" />
+    <PackageReference Include="Syncfusion.Blazor.Grid" Version="35.1.46" />
+    <PackageReference Include="Syncfusion.Blazor.Layouts" Version="35.1.46" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="35.1.46" />
   </ItemGroup>
 
 </Project>
